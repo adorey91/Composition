@@ -8,8 +8,8 @@ namespace Composition
 {
     internal class Enemy
     {
-        public int x;
-        public int y;
+        Point2D position;
+
         public HealthSystem healthSystem;
 
         public Enemy()

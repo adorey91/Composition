@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Composition
 {
-    internal class Player
+    struct Point2D
     {
         public int x;
         public int y;
+    }
+
+    internal class Player
+    {
+        Point2D position;
+
         public HealthSystem healthSystem;
 
         public Player() 
